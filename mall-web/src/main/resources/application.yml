@@ -1,6 +1,9 @@
 spring:
   application:
     name: mall-web
+  datasource:
+    druid:
+      username: 
 mybatis:
   configuration:
     map-underscore-to-camel-case: true
